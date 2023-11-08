@@ -9,7 +9,7 @@ I want to improve my 5M printer by adding some functionality from the 5M Pro (ai
 The main points and differences that I was able to discover are:
 
 1. USB connector, not used in the basic version, and seemingly not used in the pro version (free USB?).
-2. TVOC connector, used in the Pro version to connect something (possibly a camera, not confirmed), has RX/TX pins (I have not met cameras with UART)*.
+2. TVOC connector, used in the Pro version to connect something (possibly a camera, not confirmed), has RX/TX pins. Looks like serial camera (lie ptc06?)*.
 3. Servo connector, the photo of the Pro version shows the servo wire going into the air circulation system, probably the servo is needed to control the air flow (internal circulation/external)*.
 4. Fan connector to the air outlet.
 5. Connector connecting the fan to the air inlet.
