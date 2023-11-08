@@ -1,0 +1,1 @@
+I was able to find references to the klipper in the Flashforge program file (software archive, firmwareExe file), as well as an obvious similarity to the firmware compiled by the klipper for the controller (control archive, Mainboard-*.bin file)
