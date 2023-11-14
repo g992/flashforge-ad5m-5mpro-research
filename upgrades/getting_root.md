@@ -1,5 +1,4 @@
-Here will be instructions on how to get root access to your printer....
-Так как у нас есть файлы прошивки, это будет просто. Открываем архив с прошивкой, находим файл flashforge_init.sh, Добавляем следующие строки, предварительно изменив username и password на свои логин и пароль:
+Since we have firmware files, it's easy to create a user. Open the archive with the firmware, find the file flashforge_init.sh , Add the following lines, having previously changed username and password to your username and password:
 ```bash
 USERNAME="USERNAME"
 PASSWORD="password"
@@ -9,14 +8,15 @@ echo -e "$PASSWORD\n$PASSWORD" | passwd "$USERNAME"
 adduser "$USERNAME" sudo
 
 ```
-Должно получиться как то так:
+It should turn out like this:
 ![image](https://github.com/g992/flashforge-ad5m-5mpro-research/assets/48438685/0a26b2a4-4bfd-42b8-bda5-19ad91fa7761)
 
-Далее устанавливаем флешку в принтер, перезагружаем, видим как он обновляется, перезагружаем еще раз, подключаемся по Telnet к 23 порту, и радуемся.
-И в папке /opt/klipper вы успешно можете найти клиппер! Ура!
+Next, install the USB flash drive into the printer, reboot, see how it is updated, reboot again, connect via Telnet to port 23, and rejoice.
+And in the /opt/klipper folder you can successfully find the clipper! Hooray!
 ![image](https://github.com/g992/flashforge-ad5m-5mpro-research/assets/48438685/21337ecd-fde8-4a2e-bd74-73294dc0f113)
 
-А в папке /opt/config вы можете найти все конфиги принтера
+And in the /opt/config folder you can find all the printer configs
 ![image](https://github.com/g992/flashforge-ad5m-5mpro-research/assets/48438685/6473d34c-04bf-4082-9e7a-51ebc6d6bda6)
 ![image](https://github.com/g992/flashforge-ad5m-5mpro-research/assets/48438685/c4914c03-652b-4439-9d51-67dadebb31c1)
 
+But this is a user without root, I don't have enough knowledge for further modifications.
