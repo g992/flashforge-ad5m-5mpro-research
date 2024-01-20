@@ -1,6 +1,6 @@
 
 ## PCB Differences between 5M and 5M Pro
-<img src="./photo/_5m_full_view_marked.png" width="600" />
+<img src="./_5m_full_view_marked.png" width="600" />
 The main points and differences that I was able to discover are:
 
 1. USB connector, not used in the basic version, and seemingly not used in the pro version (free USB?).
