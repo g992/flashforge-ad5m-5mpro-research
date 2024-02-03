@@ -35,4 +35,12 @@ After installing klipper and config, u need to edit serial paths, if you use bot
 #### If after this step klipper sees the mainboard and eboard, congratulations, you can print. If not, follow step 5...
 
 ### STEP 5. External communication interface instead rs232.
-WIP
+WIP 
+##### CAN UNTESTED
+We PROBABLY can unsolder rs232 tranceiver, R1 and R2 to solder can tranceiver to mcu, and use rx and tx wires to transmit CAN. But we need U2C.
+
+#### USB UNTESTED
+We PROBABLY can unsolder rs232 tranceiver, R1 and R2 to connect rx and tx wires to mcu`s usb.
+
+![image](https://github.com/g992/flashforge-ad5m-5mpro-research/assets/48438685/635cdc5d-f189-490c-b9f2-a0bbffa8ac9b)
+
