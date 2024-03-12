@@ -8,7 +8,7 @@ Hardware and software researches and upgrades for Flashforge adventurer M5/M5 PR
 - [SSH access (by Stone-Time)](https://github.com/Stone-Time/Flashforge-Adventure-5M-Pro-Klipper-SSH)
 - [Silent power supply](./upgrades/silent_psu.md)
 - [Connecting ANY USB camera to printer (by mstraciak)](https://github.com/mstraciak/flashforge-ad5m-mods/blob/main/README.md)
-- Klipper on stock hardware (Big thanks to xblax) [https://github.com/xblax/flashforge_adm5_klipper_mod]
+- [Klipper on stock hardware](https://github.com/xblax/flashforge_adm5_klipper_mod)
 
 
 Just video with working klipperscreen (Big thanks @consp and @xblax)
